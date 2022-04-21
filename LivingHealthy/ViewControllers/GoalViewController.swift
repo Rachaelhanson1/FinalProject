@@ -11,26 +11,33 @@ import MBCircularProgressBar
 class GoalViewController: UIViewController {
 
     
+    //constraints for side menu
+    @IBOutlet weak var trailing: NSLayoutConstraint!
+    @IBOutlet weak var leading: NSLayoutConstraint!
+    var menuOut = false
     
     
-    @IBOutlet weak var testtest: UILabel!
     
     // progress trackers
     //Cardio
     @IBOutlet weak var cardioProg: MBCircularProgressBarView!
     @IBOutlet weak var cardioLabel: UILabel!
+    @IBOutlet weak var cardioGoal: UILabel!
     
     //flexibilty
     @IBOutlet weak var flexProg: MBCircularProgressBarView!
     @IBOutlet weak var flexLabel: UILabel!
+    @IBOutlet weak var flexGoal: UILabel!
     
     //Strength
     @IBOutlet weak var strenthProg: MBCircularProgressBarView!
     @IBOutlet weak var strengthLabel: UILabel!
+    @IBOutlet weak var strengthGoal: UILabel!
     
     //steps
     @IBOutlet weak var stepProg: MBCircularProgressBarView!
     @IBOutlet weak var stepLabel: UILabel!
+    @IBOutlet weak var stepGoal: UILabel!
     
     
     override func viewDidLoad() {
@@ -40,14 +47,23 @@ class GoalViewController: UIViewController {
         self.flexProg.value = 0
         self.strenthProg.value = 0
         self.stepProg.value = 0
-        
-
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        //allow user to choose what their target goal is
+        //allow the user to choose their own target goals
         let tabbar = tabBarController as! mainTabBarViewController
-        testtest.text = String(describing: tabbar.cardioValue)
+       
+        cardioGoal.text = String(describing: tabbar.cardioValue)
+        cardioProg.maxValue = CGFloat(tabbar.cardioValue)
+        
+        flexGoal.text = String(describing: tabbar.flexValue)
+        flexProg.maxValue = CGFloat(tabbar.flexValue)
+        
+        strengthGoal.text = String(describing: tabbar.strengthValue)
+        strenthProg.maxValue = CGFloat(tabbar.strengthValue)
+        
+        stepGoal.text = String(describing: tabbar.stepsValue)
+        stepProg.maxValue = CGFloat(tabbar.stepsValue)
     }
     
     // function for Cardio plus and minus progress tracker and counter
@@ -147,7 +163,21 @@ class GoalViewController: UIViewController {
     // if progress goal bar == 1 then change goalMetLabel to "Goal Met!"
     
     
+    //move view to the side for the side menu to come out
+    @IBAction func menuTapped(_ sender: Any) {
+        if menuOut == false {
+            leading.constant = 150
+            trailing.constant = -150
+            menuOut = true
+        } else  {
+            leading.constant = 0
+            trailing.constant = 0
+            menuOut = false
+        }
+        
     }
+    
+}
     
 
 

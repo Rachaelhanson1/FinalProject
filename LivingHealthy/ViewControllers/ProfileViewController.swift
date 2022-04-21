@@ -102,22 +102,22 @@ class ProfileViewController: UIViewController, PHPickerViewControllerDelegate {
     func picker(_ picker: PHPickerViewController, didFinishPicking results: [PHPickerResult]) {
         picker.dismiss(animated: true, completion: nil)
         
-        //results.forEach { result in
-        //    result.itemProvider.loadObject(ofClass: UIImage.self) { reading, error in
-        //        guard let profile = reading as? UIImage, error == nil else {
-        //            return
-        //        }
-        //        print(profile)
+            results.forEach { result in
+            result.itemProvider.loadObject(ofClass: UIImage.self) { reading, error in
+                guard let profile = reading as? UIImage, error == nil else {
+                    return
+                }
+                print(profile)
                 
-        for result in results {
-           result.itemProvider.loadObject(ofClass: UIImage.self, completionHandler: { (object, error) in
-              if let image = object as? UIImage {
-                 DispatchQueue.main.async {
+        //for result in results {
+        //   result.itemProvider.loadObject(ofClass: UIImage.self, completionHandler: { (object, error) in
+         //     if let image = object as? UIImage {
+       //          DispatchQueue.main.async {
                     // Use UIImage
-                    print("Selected image: \(image)")
-                 }
-              }
-           })
+       //             print("Selected image: \(image)")
+       //          }
+       //       }
+      //     })///
                 
                 
                 //self.userPhoto.image = UIImage.init(named: "profile")
@@ -125,7 +125,7 @@ class ProfileViewController: UIViewController, PHPickerViewControllerDelegate {
                 
             }
         }
-    
+    }
     
     
 

@@ -7,13 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		561A0FFA2805CBDF0097BBE7 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561A0FE82805CBDF0097BBE7 /* Workout.swift */; };
-		561A0FFC2805CBDF0097BBE7 /* ListVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561A0FEC2805CBDF0097BBE7 /* ListVIewModel.swift */; };
-		561A0FFD2805CBDF0097BBE7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561A0FEE2805CBDF0097BBE7 /* Extensions.swift */; };
-		561A0FFE2805CBDF0097BBE7 /* DBdata.json in Resources */ = {isa = PBXBuildFile; fileRef = 561A0FEF2805CBDF0097BBE7 /* DBdata.json */; };
-		561A10042805CBDF0097BBE7 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561A0FF72805CBDF0097BBE7 /* ListView.swift */; };
-		561A10052805CBDF0097BBE7 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561A0FF82805CBDF0097BBE7 /* WorkoutView.swift */; };
-		561A10062805CBDF0097BBE7 /* AppBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561A0FF92805CBDF0097BBE7 /* AppBarView.swift */; };
 		561C4E1127F330C400AFAFCA /* AllWorkoutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561C4E1027F330C400AFAFCA /* AllWorkoutsViewController.swift */; };
 		566CC1BB28072BE700D9A247 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566CC1BA28072BE700D9A247 /* SettingsViewController.swift */; };
 		566CC1BD28073E8C00D9A247 /* GoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566CC1BC28073E8B00D9A247 /* GoalViewController.swift */; };
@@ -33,6 +26,13 @@
 		56EBE40327D8E32000B8BDDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56EBE40127D8E32000B8BDDF /* LaunchScreen.storyboard */; };
 		56ED51142805A3DB005CD48E /* WorkoutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ED51132805A3DB005CD48E /* WorkoutsViewController.swift */; };
 		56EDE66327F60AD600E6E806 /* FavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EDE66227F60AD600E6E806 /* FavViewController.swift */; };
+		56EFE6A6281157DC0006DF56 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EFE6A5281157DC0006DF56 /* Workout.swift */; };
+		56EFE6A8281158090006DF56 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EFE6A7281158090006DF56 /* Extensions.swift */; };
+		56EFE6AA2811581F0006DF56 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EFE6A92811581F0006DF56 /* ListView.swift */; };
+		56EFE6AC2811582D0006DF56 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EFE6AB2811582D0006DF56 /* WorkoutView.swift */; };
+		56EFE6AE2811585A0006DF56 /* AppBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EFE6AD2811585A0006DF56 /* AppBarView.swift */; };
+		56EFE6B0281158710006DF56 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EFE6AF281158710006DF56 /* ListViewModel.swift */; };
+		56EFE6B2281158A30006DF56 /* DBdata.json in Resources */ = {isa = PBXBuildFile; fileRef = 56EFE6B1281158A30006DF56 /* DBdata.json */; };
 		56F0F6F128101F3600BB200F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F0F6F028101F3600BB200F /* WelcomeViewController.swift */; };
 		8036B1AF0A7EF2ED1963B6C1 /* Pods_LivingHealthy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1B8FE9352E070483BF1DAC /* Pods_LivingHealthy.framework */; };
 /* End PBXBuildFile section */
@@ -40,13 +40,6 @@
 /* Begin PBXFileReference section */
 		1C1B8FE9352E070483BF1DAC /* Pods_LivingHealthy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LivingHealthy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC4796EAF53E70011CB12B8 /* Pods-LivingHealthy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivingHealthy.release.xcconfig"; path = "Target Support Files/Pods-LivingHealthy/Pods-LivingHealthy.release.xcconfig"; sourceTree = "<group>"; };
-		561A0FE82805CBDF0097BBE7 /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
-		561A0FEC2805CBDF0097BBE7 /* ListVIewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListVIewModel.swift; sourceTree = "<group>"; };
-		561A0FEE2805CBDF0097BBE7 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		561A0FEF2805CBDF0097BBE7 /* DBdata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DBdata.json; sourceTree = "<group>"; };
-		561A0FF72805CBDF0097BBE7 /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
-		561A0FF82805CBDF0097BBE7 /* WorkoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
-		561A0FF92805CBDF0097BBE7 /* AppBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppBarView.swift; sourceTree = "<group>"; };
 		561C4E1027F330C400AFAFCA /* AllWorkoutsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllWorkoutsViewController.swift; sourceTree = "<group>"; };
 		566CC1BA28072BE700D9A247 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		566CC1BC28073E8B00D9A247 /* GoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +58,13 @@
 		56EBE40427D8E32000B8BDDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56ED51132805A3DB005CD48E /* WorkoutsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsViewController.swift; sourceTree = "<group>"; };
 		56EDE66227F60AD600E6E806 /* FavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavViewController.swift; sourceTree = "<group>"; };
+		56EFE6A5281157DC0006DF56 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		56EFE6A7281158090006DF56 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		56EFE6A92811581F0006DF56 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		56EFE6AB2811582D0006DF56 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		56EFE6AD2811585A0006DF56 /* AppBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBarView.swift; sourceTree = "<group>"; };
+		56EFE6AF281158710006DF56 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		56EFE6B1281158A30006DF56 /* DBdata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DBdata.json; sourceTree = "<group>"; };
 		56F0F6F028101F3600BB200F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		81AC9838E627289B5078D95B /* Pods-LivingHealthy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivingHealthy.debug.xcconfig"; path = "Target Support Files/Pods-LivingHealthy/Pods-LivingHealthy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,45 +90,6 @@
 				1C1B8FE9352E070483BF1DAC /* Pods_LivingHealthy.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		561A0FE72805CBDF0097BBE7 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				561A0FE82805CBDF0097BBE7 /* Workout.swift */,
-			);
-			name = Model;
-			path = "../../../../../Desktop/MyDelivery-main/MyDelivery/Model";
-			sourceTree = "<group>";
-		};
-		561A0FEB2805CBDF0097BBE7 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				561A0FEC2805CBDF0097BBE7 /* ListVIewModel.swift */,
-			);
-			name = ViewModel;
-			path = "../../../../../Desktop/MyDelivery-main/MyDelivery/ViewModel";
-			sourceTree = "<group>";
-		};
-		561A0FED2805CBDF0097BBE7 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				561A0FEE2805CBDF0097BBE7 /* Extensions.swift */,
-				561A0FEF2805CBDF0097BBE7 /* DBdata.json */,
-			);
-			name = "Supporting Files";
-			path = "../../../../../Downloads/MyDelivery-main/MyDelivery/Supporting Files";
-			sourceTree = "<group>";
-		};
-		561A0FF62805CBDF0097BBE7 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				561A0FF72805CBDF0097BBE7 /* ListView.swift */,
-				561A0FF82805CBDF0097BBE7 /* WorkoutView.swift */,
-				561A0FF92805CBDF0097BBE7 /* AppBarView.swift */,
-			);
-			name = View;
-			path = "../../../../../Desktop/MyDelivery-main/MyDelivery/View";
 			sourceTree = "<group>";
 		};
 		56B7A78B28083242002C88A4 /* ViewControllers */ = {
@@ -169,6 +130,7 @@
 		56EBE3F527D8E31D00B8BDDF /* LivingHealthy */ = {
 			isa = PBXGroup;
 			children = (
+				56EFE6A4281157C20006DF56 /* SwiftUI */,
 				56B7A78B28083242002C88A4 /* ViewControllers */,
 				56AAE41F27EDE03A00FAECE3 /* GoogleService-Info.plist */,
 				56EBE3F627D8E31D00B8BDDF /* AppDelegate.swift */,
@@ -178,12 +140,22 @@
 				56EBE3FF27D8E32000B8BDDF /* Assets.xcassets */,
 				56EBE40127D8E32000B8BDDF /* LaunchScreen.storyboard */,
 				56EBE40427D8E32000B8BDDF /* Info.plist */,
-				561A0FE72805CBDF0097BBE7 /* Model */,
-				561A0FED2805CBDF0097BBE7 /* Supporting Files */,
-				561A0FF62805CBDF0097BBE7 /* View */,
-				561A0FEB2805CBDF0097BBE7 /* ViewModel */,
 			);
 			path = LivingHealthy;
+			sourceTree = "<group>";
+		};
+		56EFE6A4281157C20006DF56 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				56EFE6A5281157DC0006DF56 /* Workout.swift */,
+				56EFE6A7281158090006DF56 /* Extensions.swift */,
+				56EFE6A92811581F0006DF56 /* ListView.swift */,
+				56EFE6AB2811582D0006DF56 /* WorkoutView.swift */,
+				56EFE6AD2811585A0006DF56 /* AppBarView.swift */,
+				56EFE6AF281158710006DF56 /* ListViewModel.swift */,
+				56EFE6B1281158A30006DF56 /* DBdata.json */,
+			);
+			path = SwiftUI;
 			sourceTree = "<group>";
 		};
 		8A009015D926BD183B293727 /* Pods */ = {
@@ -263,7 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				561A0FFE2805CBDF0097BBE7 /* DBdata.json in Resources */,
+				56EFE6B2281158A30006DF56 /* DBdata.json in Resources */,
 				56EBE40327D8E32000B8BDDF /* LaunchScreen.storyboard in Resources */,
 				56AAE42027EDE03A00FAECE3 /* GoogleService-Info.plist in Resources */,
 				56EBE40027D8E32000B8BDDF /* Assets.xcassets in Resources */,
@@ -323,20 +295,20 @@
 				56AAE46027F2278600FAECE3 /* ProfileViewController.swift in Sources */,
 				561C4E1127F330C400AFAFCA /* AllWorkoutsViewController.swift in Sources */,
 				56AAE41C27EDDA8400FAECE3 /* SigninViewController.swift in Sources */,
-				561A10052805CBDF0097BBE7 /* WorkoutView.swift in Sources */,
-				561A0FFA2805CBDF0097BBE7 /* Workout.swift in Sources */,
+				56EFE6A6281157DC0006DF56 /* Workout.swift in Sources */,
 				56EBE3FB27D8E31D00B8BDDF /* ViewController.swift in Sources */,
 				56AAE41E27EDDA9300FAECE3 /* SignupViewController.swift in Sources */,
+				56EFE6AA2811581F0006DF56 /* ListView.swift in Sources */,
 				56EBE3F727D8E31D00B8BDDF /* AppDelegate.swift in Sources */,
-				561A0FFD2805CBDF0097BBE7 /* Extensions.swift in Sources */,
 				56EDE66327F60AD600E6E806 /* FavViewController.swift in Sources */,
-				561A10042805CBDF0097BBE7 /* ListView.swift in Sources */,
 				56B7A78D28083384002C88A4 /* mainTabBarViewController.swift in Sources */,
+				56EFE6A8281158090006DF56 /* Extensions.swift in Sources */,
+				56EFE6B0281158710006DF56 /* ListViewModel.swift in Sources */,
 				566CC1BB28072BE700D9A247 /* SettingsViewController.swift in Sources */,
-				561A10062805CBDF0097BBE7 /* AppBarView.swift in Sources */,
 				56ED51142805A3DB005CD48E /* WorkoutsViewController.swift in Sources */,
+				56EFE6AC2811582D0006DF56 /* WorkoutView.swift in Sources */,
 				566CC1BD28073E8C00D9A247 /* GoalViewController.swift in Sources */,
-				561A0FFC2805CBDF0097BBE7 /* ListVIewModel.swift in Sources */,
+				56EFE6AE2811585A0006DF56 /* AppBarView.swift in Sources */,
 				56EBE3F927D8E31D00B8BDDF /* SceneDelegate.swift in Sources */,
 				56F0F6F128101F3600BB200F /* WelcomeViewController.swift in Sources */,
 			);

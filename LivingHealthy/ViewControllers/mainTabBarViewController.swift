@@ -14,6 +14,9 @@ class mainTabBarViewController: UITabBarController {
     var weightValue: Int = 0
     
     var cardioValue: Int = 50
+    var flexValue: Int = 50
+    var strengthValue: Int = 50
+    var stepsValue: Int  = 1000
 
     override func viewDidLoad() {
         super.viewDidLoad()
